@@ -5,10 +5,10 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 /**
- * @author Legenda-Lee
+ * @author Legenda-Lee(lee.legenda@gmail.com)
  * @date 2019-11-16 20:46
  * @description
- * @version: 1.0
+ * @since : 1.0.0
  */
 public class MD5Util {
 
