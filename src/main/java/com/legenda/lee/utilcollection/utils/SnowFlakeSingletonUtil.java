@@ -19,7 +19,6 @@ import java.util.Properties;
  * <p>
  * 参考：http://www.cnblogs.com/relucent/p/4955340.html
  *
- * @author yangjian
  */
 public class SnowFlakeSingletonUtil {
 
