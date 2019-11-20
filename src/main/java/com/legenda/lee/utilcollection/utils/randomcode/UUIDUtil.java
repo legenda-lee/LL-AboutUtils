@@ -1,9 +1,9 @@
-package com.legenda.lee.utilcollection.utils;
+package com.legenda.lee.utilcollection.utils.randomcode;
 
 import java.util.UUID;
 
 /**
- * @author Legenda-Lee(lee.legenda@gmail.com)
+ * @author Legenda-Lee
  * @date 2019-11-17 22:20
  * @description
  * @since : 1.0.0
