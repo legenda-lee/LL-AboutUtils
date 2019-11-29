@@ -1,5 +1,6 @@
 package com.legenda.lee.utilcollection.utils.randomcode;
 
+import java.security.SecureRandom;
 import java.util.HashSet;
 import java.util.Random;
 import java.util.Set;
@@ -62,6 +63,10 @@ public class CodeGenerator {
      */
     private static Random random = new Random();
 
+    private static SecureRandom secureRandom = new SecureRandom();
+
+
+
 
     /**
      * @author Legenda-Lee
@@ -78,7 +83,7 @@ public class CodeGenerator {
         int count = 1;
         while (count <= length) {
             // randomNumber值域:[0, chars.length)
-            int randomNumber = Math.abs(random.nextInt(chars.length));
+            int randomNumber = Math.abs(secureRandom.nextInt(chars.length));
             if (randomNumber >= 0 && randomNumber < chars.length) {
                 sb.append(chars[randomNumber]);
                 count++;
@@ -133,7 +138,8 @@ public class CodeGenerator {
         long a = System.currentTimeMillis();
         for (int i = 0; i < 300000; i++) {
             String temp = "";
-            temp = getRandomOfLetterUpperNumber(8);
+            temp = getRandomOfLetterUpper(8);
+            // temp = getRandomOfLetterUpperNumber(5);
             s.add(temp);
             System.out.println(temp);
         }
