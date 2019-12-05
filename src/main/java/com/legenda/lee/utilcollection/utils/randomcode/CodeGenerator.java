@@ -131,9 +131,10 @@ public class CodeGenerator {
     public static void main(String[] args) {
         Set<String> s = new HashSet<>();
         long a = System.currentTimeMillis();
-        for (int i = 0; i < 300000; i++) {
+        for (int i = 0; i < 3000000; i++) {
             String temp = "";
-            temp = getRandomOfLetterUpperNumber(8);
+            temp = getRandomOfLetterUpperNumber(5);
+            // temp = getRandomOfLetterUpper(5);
             s.add(temp);
             System.out.println(temp);
         }
