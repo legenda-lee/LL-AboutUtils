@@ -29,9 +29,8 @@ public class ValidateUtil {
      * Description: 校验对象中参数合法性的方法
      *
      * @param obj 待校验的参数对象
-     * @param eventId 事件编码
      */
-    public static  <T> String validate(T obj, String eventId) {
+    public static  <T> String validate(T obj) {
         Set<ConstraintViolation<T>> validateResults = validator.validate(obj);
         // 参数全部合法则通过
         if (validateResults == null || validateResults.isEmpty()) {
