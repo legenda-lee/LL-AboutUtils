@@ -136,7 +136,7 @@ public class CodeGenerator {
     public static void main(String[] args) {
         Set<String> s = new HashSet<>();
         long a = System.currentTimeMillis();
-        for (int i = 0; i < 300000; i++) {
+        for (int i = 0; i < 3; i++) {
             String temp = "";
             temp = getRandomOfLetterUpper(8);
             // temp = getRandomOfLetterUpperNumber(5);
