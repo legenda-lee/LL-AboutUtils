@@ -10,7 +10,7 @@ import java.io.*;
 public class AppendUtil {
 
     public static void main(String[] args) {
-        addStr("/Users/legendalee/Downloads/抗生素格式化-前", "');", "/Users/legendalee/Downloads/抗生素格式化-后");
+        addStr("/Users/legendalee/Downloads/DD", "');", "/Users/legendalee/Downloads/DD-后");
     }
 
 
