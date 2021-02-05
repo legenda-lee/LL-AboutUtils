@@ -10,7 +10,9 @@ import java.io.*;
 public class AppendUtil {
 
     public static void main(String[] args) {
-        addStr("/Users/legendalee/Downloads/DD", "');", "/Users/legendalee/Downloads/DD-后");
+        addStr("/Users/legendalee/Downloads/派甲酯", "');", "/Users/legendalee/Downloads/派甲酯-后");
+        addStr("/Users/legendalee/Downloads/派甲酯", "');", "/Users/legendalee/Downloads/派甲酯-后");
+
     }
 
 
