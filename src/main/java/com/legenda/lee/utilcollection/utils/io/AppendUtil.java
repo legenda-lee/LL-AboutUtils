@@ -11,7 +11,7 @@ public class AppendUtil {
 
     public static void main(String[] args) {
         addStr("/Users/legendalee/Downloads/派甲酯", "');", "/Users/legendalee/Downloads/派甲酯-后");
-        addStr("/Users/legendalee/Downloads/派甲酯", "');", "/Users/legendalee/Downloads/派甲酯-后");
+        addStr("/Users/legenda-lee/Downloads/派甲酯", "');", "/Users/legenda-lee/Downloads/派甲酯-后");
 
     }
 
