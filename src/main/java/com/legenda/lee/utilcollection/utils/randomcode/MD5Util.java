@@ -51,7 +51,12 @@ public class MD5Util {
      */
     public static void main(String[] args) {
         String pwd = MD5Util.getMD5("Legenda-Lee");
+
+        String pwd2 = MD5Util.getMD5("Legenda-Lee");
         System.out.println(pwd);
+        System.out.println(pwd2);
+
+        System.out.println(pwd.equals(pwd2));
     }
 
 }
