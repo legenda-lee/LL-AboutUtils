@@ -1,6 +1,7 @@
 package com.legenda.lee.utilcollection.hutool.file;
 
 import cn.hutool.core.io.FileUtil;
+import cn.hutool.core.util.ReUtil;
 
 /**
  * @author: Legenda-Lee(lee.legenda@gmail.com)
@@ -10,7 +11,7 @@ import cn.hutool.core.io.FileUtil;
 public class Test1 {
 
     public static void main(String[] args) {
-
+        // ReUtil.
     }
 
 }
